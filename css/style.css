@@ -1,0 +1,9 @@
+html{
+    --baggrundsfarve: #F2F0EB;
+    --secondary: 
+}
+
+body{
+    /* primary baggrundsfarve */ 
+    color:var(--baggrundsfarve);
+}
