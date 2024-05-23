@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/priser.css" />
+    <title>Priser</title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <div class="form-felt">
+          <label>
+            Fulde navn
+            <input
+              placeholder="fx Peter Jensen"
+              type="text"
+              name="fnavn"
+              required
+            />
+          </label>
+        </div>
+
+        <div class="form-felt">
+          <label>
+            E-mail
+            <input
+              placeholder="fx peter@gmail.com"
+              type="email"
+              name="email"
+              required
+            />
+          </label>
+        </div>
+
+        <label for="telefonnummer">Telefonnummer</label>
+        <input id="telefonnummer" name="number" type="tel" />
+
+        <label for="postnummer">Postnummer</label>
+        <input id="postnummer" name="fname" type="text" />
+
+        <div class="form-felt">
+          <label>
+            Opgaven kort beskrevet
+            <textarea name="besked" rows="5"></textarea>
+          </label>
+        </div>
+
+        <button>Ja, kontakt mig</button>
+      </form>
+    </header>
+    <footer></footer>
+  </body>
+</html>
