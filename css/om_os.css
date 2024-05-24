@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('/font/Roboto-Regular.woff2') format('woff2');
+}
+body{
+background-color: #F2F0EB;
+}
+
+p{
+font-family: 'Roboto';
+font-size: 20px;
+}
+
+.grid_1{
+    background-color: #BDBFAA; 
+}
+
+@media (max-width: 800px){
+.grid_1{
+    padding: 1%; 
+}
+img{
+    max-width: 100%;
+    border-radius: 10%;
+}
+.grid_3{
+    background-image: url('/img/baggrund_kontakt.webp'); 
+    background-size: cover;
+    }  
+}
+
+@media (min-width: 800px){
+    .grid_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        padding: 3%;
+    }
+  img{
+    max-width: 100%;
+    border-radius: 10%;
+  }  
+
+  .grid_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 3%;
+    text-align: center;
+  }
+
+  .grid_3{
+    background-image: url('/img/baggrund_kontakt.webp'); 
+    background-size: cover;
+    }      
+}
+
+
+

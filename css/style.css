@@ -1,9 +1,37 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.woff2') format('woff2');
+}
+
 html{
-    --baggrundsfarve: #F2F0EB;
-    --secondary: 
+    --bg-clr: #F2F0EB;
+    --fh-clr: #D9D0C7;
+
+    --ff-main:'Roboto', sans-serif;
+    --lh-main: 2em; 
+    --fs-main: 
 }
 
 body{
-    /* primary baggrundsfarve */ 
-    color:var(--baggrundsfarve);
+    /* farver */ 
+    background-color: var(--bg-clr); 
+
+
+    font-family: var(--ff-main);
+}
+
+main p{
+    line-height: var(--lh-main);
+}
+
+main{
+    background-color: var(--bg-clr);
+}
+
+footer{
+    color:var(--fh-farve);
+}
+
+header{
+    color:var(--fh-farve);
 }
