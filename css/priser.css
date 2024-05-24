@@ -10,5 +10,9 @@ button {
   .form-felt {
     display: grid;
     gap: 3px;
+      
   }
-  
+
+  .priserbillede {
+    width: 100%; 
+  }
