@@ -1,12 +1,34 @@
+
 label,
 input,
 textarea,
 select,
 button {
   display: block;
+  
 }
 
   .form-felt {
     display: grid;
     gap: 3px;
   }
+
+  .priserbillede {
+    width: 100%; 
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .flex_col1 {
+    background-color: #d9d0c7;
+    width: 90%;
+    height: 100%;
+  }
+  
+.tekstpris {
+  background-color: #d9d0c7;
+  
+}
