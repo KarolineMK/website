@@ -3,21 +3,40 @@
     src: url('../font/Roboto-Regular.woff2') format('woff2');
 }
 
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.woff2') format('woff2');
+}
+
 html{
+--fs-body:20px;
+/* default styling */
+--fs-xl:3rem;
+--fs-l:1.5rem;
+--fs-m:1rem;
+--fs-s:0.8rem;
+
+
     --bg-clr: #F2F0EB;
-    --fh-clr: #D9D0C7;
+    --fh-clr: #D9D0C7; 
 
     --ff-main:'Roboto', sans-serif;
+    --ff-headlines: 'Montserrat', sans-serif;
+    
+
     --lh-main: 2em; 
-    --fs-main: 
+    --lh-footer:1.75em;
+    
+    --fw-headline1: bold;
+
+    
+
 }
 
 body{
-    /* farver */ 
-    background-color: var(--bg-clr); 
-
 
     font-family: var(--ff-main);
+    font-size: var(--fs-main);
 }
 
 main p{
