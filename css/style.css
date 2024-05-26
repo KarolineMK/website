@@ -19,6 +19,7 @@ html{
 
     --bg-clr: #F2F0EB;
     --fh-clr: #D9D0C7; 
+    --fh-tclr: #514137;
 
     --ff-main:'Roboto', sans-serif;
     --ff-headlines: 'Montserrat', sans-serif;
@@ -40,17 +41,32 @@ body{
 }
 
 main p{
+    font-family: var(--ff-main);
+    font-size: var(--fs-m);
     line-height: var(--lh-main);
 }
 
-main{
+h1{
+    font-family: var(--ff-headlines);
+    font-size: var(--fs-xl);
+}
+
+h2{
+    font-family: var(--ff-headlines);
+    font-size: var(--fs-l);
+}
+
+body{
     background-color: var(--bg-clr);
 }
 
 footer{
-    color:var(--fh-farve);
+    background-color:var(--fh-farve);
+    color: var(--fh-tclr);
 }
 
 header{
-    color:var(--fh-farve);
+    background-color:var(--fh-farve);
+    color: var(--fh-tclr);
 }
+

@@ -1,18 +1,6 @@
-@font-face{
-    font-family: 'Roboto';
-    src: url('/font/Roboto-Regular.woff2') format('woff2');
-}
-body{
-background-color: #F2F0EB;
-}
-
-p{
-font-family: 'Roboto';
-font-size: 20px;
-}
 
 .grid_1{
-    background-color: #BDBFAA; 
+    background-color: #BDBFAA;
 }
 
 @media (max-width: 800px){
