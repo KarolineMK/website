@@ -1,7 +1,28 @@
-
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+  
+  .billede_tretal{
+      animation-name:            rotate; 
+      animation-duration:        10s; 
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
 .grid_1{
     background-color: #BDBFAA;
 }
+
+.billede_tretal{
+    width: 50%;
+    height: 50%;
+
+}
+
 
 /* burger menu css */
 
