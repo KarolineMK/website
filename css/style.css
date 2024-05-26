@@ -61,12 +61,28 @@ body{
 }
 
 footer{
-    background-color:var(--fh-farve);
+    background-color:var(--fh-clr);
+    color: var(--fh-tclr); 
+}
+
+/* burger menu variabler  */
+header{
+    background-color:var(--fh-clr);
     color: var(--fh-tclr);
 }
 
-header{
-    background-color:var(--fh-farve);
+menu{
     color: var(--fh-tclr);
+    background-color:var(--fh-clr);
+}
+
+.menu a{
+    color: var(--fh-tclr);
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after{
+    background-color: var(--fh-tclr);
 }
 
