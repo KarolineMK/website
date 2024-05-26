@@ -13,6 +13,21 @@
       animation-iteration-count: infinite;
       animation-timing-function: linear;
   }
+/* form css */
+
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+  
+}
+
+  .form-felt {
+    display: grid;
+    gap: 3px;
+  }
 .grid_1{
     background-color: #BDBFAA;
 }
