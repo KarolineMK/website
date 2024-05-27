@@ -69,8 +69,3 @@ footer {
   color: black;
   text-align: center;
 }
-.gridfooter_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-}
