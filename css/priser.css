@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 
 label,
 input,
@@ -8,14 +12,20 @@ button {
   
 }
 
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    gap: 1em;
+  } }
+
   .form-felt {
     display: grid;
     gap: 3px;
   }
 
   .priserbillede {
-    width: 100%; 
-  
+    width: 100%;
+    background-size: cover;
   }
 
   .grid_1-1 {
@@ -33,4 +43,27 @@ button {
   background-color: #BDBFAA;
   padding: 2em;
   margin: 5%;
+  text-align: center;
+}
+
+.tekstpris2 {
+  margin: 10%;
+}
+
+.button {
+  background-color: #514137;
+  padding: 1%;
+  
+}
+
+footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: #d9d0c7;
+  color: black;
+}
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
 }
