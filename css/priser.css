@@ -17,6 +17,15 @@ button {
     gap: 1em;
   } }
 
+  @media (min-width: 800px) {
+    .grid_1-12 {
+      display: grid;
+      gap: 1em;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    } 
+
   @media (max-width: 800px) {
     body {
       display: grid;
@@ -40,13 +49,13 @@ button {
 
   .flex_col1 {
     width: 90%;
-    height: 100%;
-    padding: 10%;
-    margin: 10%;
+    padding: 2em;
+    margin: 5%;
+    background-color: #d9d0c7;
   }
   
 .tekstpris {
-  background-color: #BDBFAA;
+  background-color: #59473C;
   padding: 2em;
   margin: 5%;
   text-align: center;
@@ -57,7 +66,7 @@ button {
 }
 
 .button {
-  background-color: #514137;
+  background-color: #59473C;
   padding: 1%;
   
 }
@@ -67,5 +76,12 @@ footer {
   padding: 0%;
   background-color: #d9d0c7;
   color: black;
+  text-align: center;
+}
+
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
   text-align: center;
 }
