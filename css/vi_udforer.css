@@ -3,17 +3,10 @@ body {
   margin: 0;
 }
 
-footer {
-  margin: 0%;
-  padding: 0%;
-  background-color: #d9d0c7;
-  color: black;
-}
-
 img {
   padding: 10%;
-  /* max-width: 100%; */
-  /* border-radius: 10; */
+  max-width: 100%;
+  /* border-radius: 20%; */
 }
 
 h1 {
@@ -48,11 +41,19 @@ main p {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+}
 
-  .gridfooter_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    text-align: center;
-  }
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  background-color: #d9d0c7;
+  color: black;
+}
+
+h2 {
+  text-align: center;
 }

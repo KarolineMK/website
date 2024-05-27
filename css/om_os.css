@@ -1,17 +1,26 @@
-@keyframes rotate {
-    from {
-      transform: rotate(0deg);
+/* tre tal animation css */
+
+@keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
     }
-    to { 
-      transform: rotate(360deg);
+    50% { 
+      transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
     }
   }
+
+  .zoom-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
   
-  .billede_tretal{
-      animation-name:            rotate; 
-      animation-duration:        10s; 
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
+  .zoom-image{
+      max-width: 100%;
+      animation: zoom-in-out 4s infinite;
   }
 /* form css */
 
@@ -32,21 +41,37 @@ button {
 body{
     margin: 0%;
 }
+
+h2{
+    text-align: center;
+}
+
 .grid_1{
     background-color: #BDBFAA;
 }
 
-.billede_tretal{
-    width: 50%;
-    height: 50%;
-
+.grid_2{
+    background-color: #BDBFAA;
 }
 
+p{
+    margin: 5%;
+    text-align: center;
+}
+
+.gridfooter_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: #d9d0c7;
+    color: black;
+  }
 
 @media (max-width: 800px){
-.grid_1{
-    padding: 1%; 
-}
+
 img{
     max-width: 100%;
     border-radius: 10%;
@@ -55,6 +80,10 @@ img{
     background-image: url('/img/baggrund_kontakt.webp'); 
     background-size: cover;
     }  
+ .zoom-image{
+ max-width: 50%;
+ align-items: center;
+margin: 10%;  }
     }
 
 @media (min-width: 800px){
@@ -69,6 +98,10 @@ img{
     border-radius: 10%;
   }  
 
+  p{
+    margin: 9%;
+  }
+
   .grid_2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,9 +110,17 @@ img{
     text-align: center;
   }
 
+  .zoom-image{
+   max-width: 50%;
+    align-items: center;
+
+}
+
   .grid_3{
     background-image: url('/img/baggrund_kontakt.webp'); 
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
     }      
 }
 

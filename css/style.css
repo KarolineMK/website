@@ -9,12 +9,12 @@
 }
 
 html{
---fs-body:20px;
-/* default styling */
---fs-xl:3rem;
---fs-l:1.5rem;
---fs-m:1rem;
---fs-s:0.8rem;
+    --fs-body:20px;
+    /* default styling */
+    --fs-xl:3rem;
+    --fs-l:1.5rem;
+    --fs-m:1rem;
+    --fs-s:0.8rem;
 
 
     --bg-clr: #F2F0EB;
