@@ -5,9 +5,23 @@ body {
 footer {
   margin: 0%;
   padding: 0%;
-  background-color: pink;
+  background-color: #d9d0c7;
   color: black;
 }
+
+img {
+  padding: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 25%;
+  font-size: large;
+}
+
 @media (min-width: 800px) {
   main {
     display: grid;
@@ -24,6 +38,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    background-color: #bdbfaa;
   }
 
   .grid3_1-1 {
@@ -37,24 +52,4 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
   }
-
-  /* .gridstor_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2em;
-  }
-
-  .gridvideo_1-1{
-   display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2em;
-}
-
-  .span2x2 {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-  .span2x1 {
-    grid-column: span 2;
-  } */
 }

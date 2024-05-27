@@ -5,7 +5,6 @@ body {
 }
 
 * {
- 
   box-sizing: border-box;
 }
 
@@ -16,7 +15,7 @@ body {
 
 .menu a:hover {
   text-decoration: underline;
-  color: #59473C;
+  color: #59473c;
 }
 header {
   display: flex;
