@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+  
+}
+
+@media (min-width: 800px) {
+  body {
+    display: grid;
+    gap: 1em;
+  } }
+
+  @media (min-width: 800px) {
+    .grid_1-12 {
+      display: grid;
+      gap: 1em;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    } 
+
+  @media (max-width: 800px) {
+    body {
+      display: grid;
+      gap: 1em;
+    } }
+
+  .form-felt {
+    display: grid;
+    gap: 3px;
+  }
+
+  .priserbillede {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .flex_col1 {
+    width: 90%;
+    padding: 2em;
+    margin: 5%;
+    background-color: #d9d0c7;
+  }
+  
+.tekstpris {
+  background-color: #59473C;
+  padding: 2em;
+  margin: 5%;
+  text-align: center;
+}
+
+.tekstpris2 {
+  margin: 10%;
+}
+
+.button {
+  background-color: #59473C;
+  padding: 1%;
+  
+}
+
+footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: #d9d0c7;
+  color: black;
+  text-align: center;
+}
+
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  text-align: center;
+}
