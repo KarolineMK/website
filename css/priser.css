@@ -15,6 +15,7 @@ button {
 
   .priserbillede {
     width: 100%; 
+  
   }
 
   .grid_1-1 {
@@ -23,11 +24,13 @@ button {
   }
 
   .flex_col1 {
-    background-color: #d9d0c7;
     width: 90%;
     height: 100%;
+    padding: 2em;
   }
   
 .tekstpris {
   background-color: #BDBFAA;
+  padding: 2em;
+  margin: 5%;
 }
