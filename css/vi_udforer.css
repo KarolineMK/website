@@ -1,5 +1,6 @@
 body {
   background-color: F2F0EB;
+  margin: 0;
 }
 
 footer {
@@ -11,15 +12,16 @@ footer {
 
 img {
   padding: 10%;
+  /* max-width: 100%; */
+  /* border-radius: 10; */
 }
 
 h1 {
   text-align: center;
 }
 
-p {
+main p {
   margin: 25%;
-  font-size: large;
 }
 
 @media (min-width: 800px) {
@@ -51,5 +53,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+    text-align: center;
   }
 }
