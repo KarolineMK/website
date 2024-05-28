@@ -18,8 +18,10 @@ h2 {
 }
 
 main p {
-  margin: 25%;
-}
+  /* margin: 25%; */
+  max-width: 55ch;
+  margin: 1em auto .5em;
+} 
 
 a {
   color: black;
@@ -39,6 +41,7 @@ a:hover {
   main {
     display: grid;
     gap: 1em;
+    padding: 0 2em;
   }
 
   .grid1_1-1 {
@@ -59,6 +62,9 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+  .order {
+    order:-1;
+  }
 }
 
 .gridfooter_1-1-1 {
@@ -68,8 +74,6 @@ a:hover {
   text-align: center;
   margin: 0%;
   padding: 0%;
-  background-color: #d9d0c7;
-  color: black;
 }
 
 
