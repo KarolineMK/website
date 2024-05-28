@@ -20,6 +20,7 @@ html{
     --bg-clr: #F2F0EB;
     --fh-clr: #D9D0C7; 
     --fh-tclr: #514137;
+    --hl-clr:#4D3D34;
 
     --ff-main:'Roboto', sans-serif;
     --ff-headlines: 'Montserrat', sans-serif;
@@ -46,6 +47,7 @@ main p{
 h1{
     font-family: var(--ff-headlines);
     font-size: var(--fs-xl);
+    color: var(--hl-clr);
 }
 
 h2{
