@@ -65,31 +65,62 @@ main p{
 } 
 
 /* footer css */
+
+/* footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: #d9d0c7;
+  color: black;
+  text-align: center;
+} */
+
 .gridfooter_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-    background-color: #d9d0c7;
-    color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.form-container{
+  display: grid;
+  place-items: center;
+  background-image: url('/img/baggrund_kontakt.webp'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  }   
+
+  .form-item{
+    border-radius: 5%;
+    background-color: rgba(217, 208, 199, 0.75);
+    width: 50%;
+    height: 70%;
+    margin: 10%;
+    padding: 10%;
   }
+
+img{
+  max-width: 100%;
+  padding-top: 10%;
+}  
 
 @media (max-width: 800px){
 
-img{
-    max-width: 100%;
+
 }
-.grid_3{
-    background-image: url('/img/baggrund_kontakt.webp'); 
-    background-size: cover;
-    }  
- .zoom-image{
- max-width: 50%;
- align-items: center;
-margin: 10%;  }
-    }
 
 @media (min-width: 800px){
     .grid_1{
@@ -120,13 +151,6 @@ margin: 10%;  }
     align-items: center;
 
 }
-
-  .grid_3{
-    background-image: url('/img/baggrund_kontakt.webp'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    }      
 }
 
 
