@@ -20,8 +20,8 @@ h2 {
 main p {
   /* margin: 25%; */
   max-width: 55ch;
-  margin: 1em auto .5em;
-} 
+  margin: 1em auto 0.5em;
+}
 
 a {
   color: black;
@@ -63,7 +63,7 @@ a:hover {
     gap: 1em;
   }
   .order {
-    order:-1;
+    order: -1;
   }
 }
 
@@ -71,9 +71,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
-  text-align: center;
+  /* text-align: center; */
   margin: 0%;
   padding: 0%;
 }
-
-

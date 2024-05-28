@@ -14,3 +14,11 @@ img {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 1em;
 }
+
+.baggrundsfarve_forside{
+  background-color: #bdbfaa;
+}
+
+h2{
+  text-align: center;
+}
