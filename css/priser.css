@@ -11,6 +11,9 @@ button {
   
 }
 
+h1 {
+  text-align: center;
+}
 
   @media (max-width: 800px) {
     body {
@@ -46,6 +49,22 @@ button {
   .form-felt {
     display: grid;
     gap: 3px;
+  }
+
+  footer {
+    margin: 0%;
+    padding: 0%;
+    background-color: #d9d0c7;
+    color: black;
+    text-align: center;
+    
+  }
+  
+  .gridfooter_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    text-align: center;
   }
   
   }
@@ -98,6 +117,7 @@ button {
   padding: 1%;
   
 }
+
     }
 
 footer {
