@@ -1,29 +1,4 @@
-/* animation css */
-
-/* @keyframes zoom-in-out {
-    0% {
-      transform: scale(1);
-    }
-    50% { 
-      transform: scale(1.5);
-    }
-    100%{
-        transform: scale(1);
-    }
-  }
-
-  .zoom-container{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-  }
-  
-  .zoom-image{
-      max-width: 100%;
-      animation: zoom-in-out 4s infinite;
-  } */
 /* form css */
-
 label,
 input,
 textarea,
@@ -45,6 +20,9 @@ body{
 
 h1{
   text-align: center;
+  background-color: #BDBFAA;
+  margin: 0;
+  padding-top: 5%;
 }
 
 h2{
@@ -65,14 +43,6 @@ main p{
 } 
 
 /* footer css */
-
-/* footer {
-  margin: 0%;
-  padding: 0%;
-  background-color: #d9d0c7;
-  color: black;
-  text-align: center;
-} */
 
 .gridfooter_1-1-1 {
   display: grid;
@@ -118,7 +88,8 @@ img{
 }  
 
 @media (max-width: 800px){
-
+  .form-felt1, .form-felt2, .form-felt3, .form-felt4 {
+    margin-bottom: 1em;}  
 
 }
 
@@ -146,12 +117,12 @@ img{
     text-align: center;
   }
 
-  .zoom-image{
-   max-width: 50%;
-    align-items: center;
+  .form-felt1, .form-felt2, .form-felt3, .form-felt4 {
+    margin-bottom: 1em;
+      }
 
 }
-}
+
 
 
 
