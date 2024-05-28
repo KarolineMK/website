@@ -9,3 +9,8 @@
   gap: 1em;
   text-align: center;
 }
+
+video{
+  max-width: 100%;
+  padding: 1%;
+}

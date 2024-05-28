@@ -15,7 +15,7 @@
   .zoom-container{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
   }
   
   .zoom-image{
@@ -54,10 +54,10 @@ h2{
     background-color: #BDBFAA;
 }
 
-/* p{
+p{
     margin: 5%;
     text-align: center;
-} */
+} 
 
 .gridfooter_1-1-1 {
     display: grid;
