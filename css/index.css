@@ -7,12 +7,11 @@ main {
 }
 video {
   max-width: 100%;
-  
 }
 
 img {
   max-width: 100%;
-  border-radius: 10%;
+  /* border-radius: 10%; */
 }
 
 .flex_col img {
@@ -44,4 +43,11 @@ h2 {
   p {
     max-width: 55ch;
   }
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-top: 5%;
 }
