@@ -1,13 +1,18 @@
 body {
   margin: 0%;
 }
-h1{text-align: center;}
+h1 {
+  text-align: center;
+}
 
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5em;
+  margin: 2em;
+  gap: 1em;
 }
+
+
 .span2x1 {
   grid-column: span 2;
 }
@@ -22,7 +27,9 @@ img {
     grid-template-columns: 2fr 1fr 1fr 2fr;
     gap: 0.5em;
   }
-.two-fw{order: 2;}
+  .two-fw {
+    order: 2;
+  }
 
   .gl-span2x1 {
     grid-column: span 2;

@@ -34,6 +34,10 @@ h2 {
   text-align: center;
 }
 
+.baggrundskasse{background-color: #bdbfaa;
+}
+
+
 @media (max-width: 800px) {
   body {
     display: grid;

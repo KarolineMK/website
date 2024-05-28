@@ -1,87 +1,84 @@
-@font-face{
-    font-family: 'Roboto';
-    src: url('../font/Roboto-Regular.woff2') format('woff2');
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.woff2") format("woff2");
 }
 
-@font-face{
-    font-family: 'Montserrat';
-    src: url('../font/Montserrat-VariableFont_wght.woff2') format('woff2');
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.woff2") format("woff2");
 }
 
-html{
-    --fs-body:20px;
-    /* default styling */
-    --fs-xl:3rem;
-    --fs-l:1.5rem;
-    --fs-m:1rem;
-    --fs-s:0.8rem;
+html {
+  --fs-body: 20px;
+  /* default styling */
+  --fs-xl: 3rem;
+  --fs-l: 1.5rem;
+  --fs-m: 1rem;
+  --fs-s: 0.8rem;
 
+  --bg-clr: #f2f0eb;
+  --fh-clr: #d9d0c7;
+  --fh-tclr: #514137;
+  --hl-clr: #4d3d34;
 
-    --bg-clr: #F2F0EB;
-    --fh-clr: #D9D0C7; 
-    --fh-tclr: #514137;
-    --hl-clr:#4D3D34;
+  --ff-main: "Roboto", sans-serif;
+  --ff-headlines: "Montserrat", sans-serif;
 
-    --ff-main:'Roboto', sans-serif;
-    --ff-headlines: 'Montserrat', sans-serif;
-    
+  --lh-main: 2em;
+  --lh-footer: 1.75em;
 
-    --lh-main: 2em; 
-    --lh-footer:1.75em;
-    
-    --fw-headline1: bold;
+  --fw-headline1: bold;
 }
 
-body{
-
-    font-family: var(--ff-main);
-    font-size: var(--fs-main);
+body {
+  font-family: var(--ff-main);
+  font-size: var(--fs-main);
 }
 
-main p{
-    font-family: var(--ff-main);
-    font-size: var(--fs-m);
-    line-height: var(--lh-main);
+main p {
+  font-family: var(--ff-main);
+  font-size: var(--fs-m);
+  line-height: var(--lh-main);
 }
 
-h1{
-    font-family: var(--ff-headlines);
-    font-size: var(--fs-xl);
-    color: var(--hl-clr);
+h1 {
+  font-family: var(--ff-headlines);
+  font-size: var(--fs-xl);
+  color: var(--hl-clr);
 }
 
-h2{
-    font-family: var(--ff-headlines);
-    font-size: var(--fs-l);
+h2 {
+  font-family: var(--ff-headlines);
+  font-size: var(--fs-l);
 }
 
-body{
-    background-color: var(--bg-clr);
+body {
+  background-color: var(--bg-clr);
 }
 
-footer{
-    background-color:var(--fh-clr);
-    color: var(--fh-tclr); 
+footer {
+  background-color: var(--fh-clr);
+  color: var(--fh-tclr);
 }
 
 /* burger menu variabler  */
-header{
-    background-color:var(--fh-clr);
-    color: var(--fh-tclr);
+header {
+  background-color: var(--fh-clr);
+  color: var(--fh-tclr);
 }
 
-menu{
-    color: var(--fh-tclr);
-    background-color:var(--fh-clr);
+menu {
+  color: var(--fh-tclr);
+  background-color: var(--fh-clr);
 }
 
-.menu a{
-    color: var(--fh-tclr);
+.menu a {
+  color: var(--fh-tclr);
 }
 
 .menu-button,
 .menu-button::before,
-.menu-button::after{
-    background-color: var(--fh-tclr);
+.menu-button::after {
+  background-color: var(--fh-tclr);
 }
 
