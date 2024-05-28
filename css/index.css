@@ -6,10 +6,6 @@ main {
   margin-right: 2em;
 }
 
-.baggrundsfarve_forside {
-  background-color: #bdbfaa;
-}
-
 h1{
   text-align: center;
 }
@@ -17,7 +13,14 @@ h2 {
   text-align: center;
 }
 
-.baggrundskasse{background-color: #bdbfaa;
+p{
+  text-align: center;
+}
+
+.grid_1{
+  margin: 10%;
+  /* padding: 10%; */
+
 }
 
 video {
@@ -28,7 +31,7 @@ img {
   max-width: 100%;
 }
 
-/* hover effekt til de tre første billeder i index */
+/* hover effekt */
 .image{
   object-fit: cover;
   transition: transform 0.5s ease;
@@ -61,6 +64,25 @@ img {
   text-align: center;
 }
 
+/* knap */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #BDBFAA;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #838575;
+}
+
 .image-container:hover .image {
   transform: scale(1.1); /* Scale image on hover */
 }
@@ -73,11 +95,11 @@ img {
   body {
     display: grid;
     gap: 1em;
-  }
+  } 
 
-  p {
+  /* p {
     max-width: 55ch;
-  }
+  } */
 }
 
 @media (min-width: 800px){
