@@ -4,7 +4,7 @@ body {
 }
 
 img {
-  padding: 10%;
+  /* padding: 10%; */
   max-width: 100%;
   /* border-radius: 20%; */
 }
@@ -20,8 +20,8 @@ h2 {
 main p {
   /* margin: 25%; */
   max-width: 55ch;
-  margin: 1em auto .5em;
-} 
+  margin: 1em auto 0.5em;
+}
 
 a {
   color: black;
@@ -38,7 +38,10 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  main {
+  section {
+    padding: 3em;
+  }
+  s main {
     display: grid;
     gap: 1em;
     padding: 0 2em;
@@ -63,7 +66,7 @@ a:hover {
     gap: 1em;
   }
   .order {
-    order:-1;
+    order: -1;
   }
 }
 
@@ -71,9 +74,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
-  text-align: center;
+  /* text-align: center; */
   margin: 0%;
   padding: 0%;
 }
-
-
