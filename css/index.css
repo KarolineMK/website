@@ -7,7 +7,7 @@ main {
 }
 video {
   max-width: 100%;
-  border-radius: 1em;
+  
 }
 
 img {
@@ -27,24 +27,21 @@ img {
   gap: 1em;
 }
 
-.baggrundsfarve_forside{
+.baggrundsfarve_forside {
   background-color: #bdbfaa;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-
 @media (max-width: 800px) {
-    body {
-      display: grid;
-      gap: 1em;
-    } 
+  body {
+    display: grid;
+    gap: 1em;
+  }
 
-    p{
-  max-width: 55ch;
+  p {
+    max-width: 55ch;
+  }
 }
-}
-
-
