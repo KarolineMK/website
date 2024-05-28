@@ -20,10 +20,31 @@ img {
   height: auto;
 }
 
-
 .flex_col {
   display: grid;
 
   grid-template-rows: 1fr 1fr 1fr;
   gap: 1em;
 }
+
+.baggrundsfarve_forside{
+  background-color: #bdbfaa;
+}
+
+h2{
+  text-align: center;
+}
+
+
+@media (max-width: 800px) {
+    body {
+      display: grid;
+      gap: 1em;
+    } 
+
+    p{
+  max-width: 55ch;
+}
+}
+
+
