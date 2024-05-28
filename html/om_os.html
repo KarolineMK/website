@@ -10,7 +10,12 @@
   </head>
   <body>
     <header>
-      <div>Logo</div>
+      <div> <img
+        src="../img/Logo_uden_tekst.webp"
+        alt="Billede af logo"
+        height="65"
+        width="65"
+      /></div>
       <input id="menu-toggle" type="checkbox" />
       <label class="menu-button-container" for="menu-toggle">
         <div class="menu-button"></div>
@@ -26,13 +31,16 @@
       </nav>
     </header>
     <main>
-      <h1>Om Elfelt og Stendevad</h1>
       <div class="grid_1">
         <div class="col">
+          <h1>Om Elfelt og Stendevad</h1>
           <h2>Faglærte tømrer med mange års erfaring</h2>
           <p>
             Vi er danske faglærte tømrer, der efter mange års erfaring som tømrer har opstartet vores eget firma. Vi har tidligere arbejdet hos både små tømrerfirmaer og i de seneste mange år hos større entreprenør firmaer, hvor vi har
-            udført tømrerarbejde og styret større bygge-projekter. Det har givet os et godt fundament og netværk til at starte vores eget. For os er en aftale en aftale, punktlighed en selvfølgelighed og kvalitet vores varemærke! Vi spørger
+            udført tømrerarbejde og styret større bygge-projekter. Det har givet os et godt fundament og netværk til at starte vores eget. 
+            <br>
+            <br>
+            For os er en aftale en aftale, punktlighed en selvfølgelighed og kvalitet vores varemærke! Vi spørger
             ind til dine behov og giver dig forskellige løsningsforslag, så du altid får den bedste løsning til en konkurrencedygtig pris.
           </p>
         </div>
@@ -40,18 +48,18 @@
           <img src="/img/om_os-2.webp" alt="" />
         </div>
       </div>
-      <div>
+      <div class="lottiefile">
         <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 
         <dotlottie-player src="https://lottie.host/17cd0146-3b48-418a-9833-a35762f89139/pP5TswWjvd.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay></dotlottie-player>
       </div>
       <div class="grid_2">
-        <div class="col">
-          <img src="/img/Artboard 1.svg" alt="" class="billede_tretal" />
+        <div class="zoom-container">
+          <img src="../img/omos_billede2.webp" alt="" class="zoom-image" />
         </div>
         <div class="col">
           <h2>3-dages-målsætning</h2>
-          <p>Vi bestræber os på at komme ud og se på det, som du vil have lavet, inden 3 dage, fra du har kontaktet os. Hvis vi ikke kan give dig en pris med det samme, modtager du et tilbud senest 3 dage efter mødet.</p>
+          <p> Vi bestræber os på at komme ud og se på det, som du vil have lavet, inden 3 dage, fra du har kontaktet os. Hvis vi ikke kan give dig en pris med det samme, modtager du et tilbud senest 3 dage efter mødet.</p>
         </div>
       </div>
       <h1>Kontakt os</h1>
@@ -97,10 +105,37 @@
           </div>
   
           <button>Ja, kontakt mig</button>
+
         </form>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="gridfooter_1-1-1">
+        <div>
+          <h3>Elst ApS</h3>
+          <p>Tømrer- og Snedker Entreprise</p>
+          <p>Gammel Torpenvej 31, 3050 Humlebæk</p>
+          <p>CVR: 36047828</p>
+          <p>Mail: Elfelt.stendevad@gmail.com</p>
+          <p>Telefon: +45 26 23 13 11</p>
+        </div>
+        <div>
+          <img
+            src="../img/Logo_test.webp"
+            alt="Billede af logo"
+            height="250"
+            width="250"
+          />
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <a href="../html/vi_udforer.html"><p>Vi udfører</p></a>
+          <a href="../html/priser.html"><p>Priser</p></a>
+          <a href="../html/galleri.html"><p>Galleri</p></a>
+          <a href="../html/om_os.html"><p>Om os/kontakt</p></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

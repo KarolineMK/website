@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 
 label,
 input,
@@ -8,26 +11,126 @@ button {
   
 }
 
+h1 {
+  text-align: center;
+}
+
+  @media (max-width: 800px) {
+    body {
+      display: grid;
+      gap: 1em;
+    } 
+    .flex_col1 {
+      width: 90%;
+      padding: 2em;
+      margin: 5%;
+      background-color: #d9d0c7;
+    }
+    
+  .tekstpris {
+    background-color: #59473C;
+    padding: 2em;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .priserbillede {
+    width: 100%;
+    background-size: cover;
+    padding: 2em;
+  }
+
+  .button {
+    background-color: #59473C;
+    padding: 1%;
+    
+  }
+
   .form-felt {
     display: grid;
     gap: 3px;
   }
 
-  .priserbillede {
-    width: 100%; 
+  footer {
+    margin: 0%;
+    padding: 0%;
+    background-color: #d9d0c7;
+    color: black;
+    text-align: center;
+    
   }
+  
+  .gridfooter_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    text-align: center;
+  }
+  
+  }
+  
+    @media (min-width: 800px) {
+      body {
+        display: grid;
+        gap: 1em;
+      } 
+
+      .flex_col1 {
+        width: 90%;
+        padding: 2em;
+        margin: 5%;
+        background-color: #d9d0c7;
+      }
+      
+    .tekstpris {
+      background-color: #59473C;
+      padding: 2em;
+      margin: 5%;
+      text-align: center;
+    }
+
+      .priserbillede {
+        width: 100%;
+        background-size: cover;
+        padding: 2em;
+        
+      }
+
+  .form-felt {
+    display: grid;
+    gap: 3px;
+  }
+
 
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .flex_col1 {
-    background-color: #d9d0c7;
-    width: 90%;
-    height: 100%;
-  }
+
+.tekstpris2 {
+  margin: 10%;
+}
+
+.button {
+  background-color: #59473C;
+  padding: 1%;
   
-.tekstpris {
-  background-color: #BDBFAA;
+}
+
+    }
+
+footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: #d9d0c7;
+  color: black;
+  text-align: center;
+}
+
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  text-align: center;
 }
