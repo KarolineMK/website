@@ -11,12 +11,18 @@
   <body>
     <header>
       <div>
+<<<<<<< HEAD
+        <a href="../index.html">
+          <img src="../img/Logo_uden_tekst.webp" alt="billede af logo" height="100" width="110" />
+        </a>
+=======
         <img
           src="../img/Logo_uden_tekst.webp"
           alt="Billede af logo"
           height="105"
           width="110"
         />
+>>>>>>> cd88d6c1b2041ef4aa3e25b70056aa4b66872430
       </div>
       <input id="menu-toggle" type="checkbox" />
       <label class="menu-button-container" for="menu-toggle">
@@ -28,14 +34,12 @@
           <li><a href="vi_udforer.html">Vi udfører</a></li>
           <li><a href="galleri.html">Galleri</a></li>
           <li><a href="priser.html">Priser</a></li>
-          <li><a href="om_os.html">Om Os/Kontakt</a></li>
+          <li><a class="active" href="om_os.html">Om Os/Kontakt</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="bagground_box">
-        <h1>Om Elfelt og Stendevad</h1>
-      </section>
+      <h1>Om Elfelt og Stendevad</h1>
       <div class="grid_1">
         <div class="col">
           <h2>Faglærte tømrer med mange års erfaring</h2>
@@ -89,9 +93,9 @@
       <div class="form-container">
         <div class="form-item">
           <form>
-            <h1>Kontakt os</h1>
+            <h2>Kontakt os</h2>
             <div class="flex_col1">
-              <div class="form-felt">
+              <div class="form-felt1">
                 <label>
                   Fulde navn
                   <input
@@ -103,7 +107,7 @@
                 </label>
               </div>
 
-              <div class="form-felt">
+              <div class="form-felt2">
                 <label>
                   E-mail
                   <input
@@ -116,12 +120,12 @@
               </div>
 
               <label for="telefonnummer">Telefonnummer</label>
-              <input id="telefonnummer" name="number" type="tel" />
+              <input id="telefonnummer" class="form-felt3" name="number" type="tel" />
 
               <label for="postnummer">Postnummer</label>
-              <input id="postnummer" name="fname" type="text" />
+              <input id="postnummer" class="form-felt4" name="fname" type="text" />
 
-              <div class="form-felt">
+              <div class="form-felt5">
                 <label>
                   Opgaven kort beskrevet
                   <textarea name="besked" rows="5"></textarea>
