@@ -29,8 +29,9 @@ header {
   padding: 0;
 }
 
-.menu a.active {
- text-decoration: overline;
+.menu .active {
+  text-decoration: underline 2px;
+ color: #f2f0eb;
 }
 
 .menu > li {
