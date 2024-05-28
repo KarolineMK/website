@@ -4,7 +4,7 @@ body {
 }
 
 img {
-  padding: 10%;
+  /* padding: 10%; */
   max-width: 100%;
   /* border-radius: 20%; */
 }
@@ -38,7 +38,10 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  main {
+  section {
+    padding: 3em;
+  }
+  s main {
     display: grid;
     gap: 1em;
     padding: 0 2em;
