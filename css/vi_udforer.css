@@ -13,8 +13,26 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 main p {
   margin: 25%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 @media (min-width: 800px) {
@@ -54,6 +72,4 @@ main p {
   color: black;
 }
 
-h2 {
-  text-align: center;
-}
+
