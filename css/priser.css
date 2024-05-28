@@ -20,7 +20,7 @@ h1 {
       display: grid;
       gap: 1em;
     } 
-    .flex_col1 {
+  .flex_col1 {
       width: 90%;
       padding: 2em;
       margin: 5%;
@@ -28,7 +28,7 @@ h1 {
     }
     
   .tekstpris {
-    background-color: #59473C;
+    background-color: #bdbfaa;
     padding: 2em;
     margin: 5%;
     text-align: center;
@@ -37,13 +37,14 @@ h1 {
   .priserbillede {
     width: 100%;
     background-size: cover;
-    padding: 2em;
+    padding: 1.5em;
   }
 
   .button {
     background-color: #59473C;
     padding: 1%;
-    
+    color: #d9d0c7;
+    font-weight: bold;
   }
 
   .form-felt {
@@ -66,30 +67,39 @@ h1 {
     gap: 1em;
     text-align: center;
   }
+
+  .tekstfooter {
+    width: 70%;
+  }
+
+  .footerbillede {
+    margin-top: 80px;
+    width: 110%;
+  }
   
   }
   
-    @media (min-width: 800px) {
+  @media (min-width: 800px) {
       body {
         display: grid;
         gap: 1em;
       } 
 
-      .flex_col1 {
+  .flex_col1 {
         width: 90%;
         padding: 2em;
         margin: 5%;
         background-color: #d9d0c7;
       }
       
-    .tekstpris {
-      background-color: #59473C;
+  .tekstpris {
+      background-color: #bdbfaa;
       padding: 2em;
       margin: 5%;
       text-align: center;
     }
 
-      .priserbillede {
+  .priserbillede {
         width: 100%;
         background-size: cover;
         padding: 2em;
@@ -102,25 +112,33 @@ h1 {
   }
 
 
-  .grid_1-1 {
+ .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
 
-.tekstpris2 {
+ .tekstpris2 {
   margin: 10%;
 }
 
-.button {
+ .button {
   background-color: #59473C;
   padding: 1%;
-  
+  color: #d9d0c7;
+  font-weight: bold;
+}
+
+.footerbillede {
+  width: 40%;
+  height: 70%;
+  margin-top: 2%;
+  margin-right: -20px;
 }
 
     }
 
-footer {
+ footer {
   margin: 0%;
   padding: 0%;
   background-color: #d9d0c7;
@@ -128,9 +146,27 @@ footer {
   text-align: center;
 }
 
-.gridfooter_1-1-1 {
+ .gridfooter_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
   text-align: center;
+}
+
+.footerbillede {
+  margin-left: -60px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }

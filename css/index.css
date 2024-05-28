@@ -1,17 +1,16 @@
-	img{
-    max-width: 100%;
-    border-radius: 10%;
-  }
-
-  .gridfooter_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  text-align: center;
+img {
+  max-width: 100%;
+  border-radius: 10%;
 }
 
-video{
+.flex_col img {
   width: 100%;
-  padding-right: 10%;
-  object-fit: cover; 
+  height: auto;
+}
+
+.flex_col {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
 }
