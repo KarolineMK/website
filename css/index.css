@@ -67,7 +67,6 @@ img {
 /* knap */
 
 .button {
-  display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
@@ -126,12 +125,15 @@ img {
   }
 
   .button {
-    display: inline-block;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
     color: #fff;
     background-color: #BDBFAA;
     text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .tagbillede {
