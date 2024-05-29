@@ -118,6 +118,16 @@ margin-bottom: 1em;
   font-weight: bold;
 }
 
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 0%;
+  padding: 0%;
+  justify-content: right;
+  justify-items: center;
+}
+
     }
 
  footer {
