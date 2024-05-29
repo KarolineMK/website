@@ -14,13 +14,13 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
 }
 
 main p {
   /* margin: 25%; */
   max-width: 55ch;
-  margin: 1em auto 0.5em;
+  margin: 1em 0 0.5em;
 }
 
 a {
