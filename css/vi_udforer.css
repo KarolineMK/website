@@ -24,12 +24,12 @@ main p {
 }
 
 a {
-  color: black;
+  color: #514137;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: #514137;
   text-decoration: none;
 }
 
@@ -80,4 +80,17 @@ a:hover {
   justify-content: right;
   justify-items: center;
 }
+/* .image {
+  overflow: hidden;
+  border-radius: 2px;
+}
 
+.image:hover {
+  transform: scale(1.12);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s;
+} */
