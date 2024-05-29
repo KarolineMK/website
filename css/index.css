@@ -128,7 +128,7 @@ img {
     color: #fff;
     background-color: #bdbfaa;
     text-align: center;
-    margin: 0;
+    margin-left: 38em;
     justify-content: center;
     align-items: center;
     margin-left: 600px;
@@ -140,7 +140,7 @@ img {
   }
 
 .teksttag {
-  margin-bottom: 5em;
+  margin-bottom: 7em;
 }
 
 }
@@ -172,4 +172,7 @@ a:hover {
 
 footer p{
   text-align: left;
+}
+.forside_billede{
+  margin: 20px;
 }
