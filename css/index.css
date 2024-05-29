@@ -79,6 +79,7 @@ img {
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  
 }
 
 .button:hover {
@@ -99,6 +100,20 @@ img {
     gap: 1em;
   } 
 
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #BDBFAA;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 130px;
+  }
+
   /* p {
     max-width: 55ch;
   } */
@@ -111,4 +126,19 @@ img {
     gap: 1em;
     margin-top: 5%;
   }
+
+  .button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #BDBFAA;
+    text-align: center;
+  }
+
+  .tagbillede {
+    width: 100;
+    height: 50;
+  }
+
 }
