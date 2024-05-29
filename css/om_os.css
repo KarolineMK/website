@@ -25,6 +25,10 @@ h1{
   padding-top: 5%;
 }
 
+.kontakt_h1{
+  font-size: var(--fs-xl);
+}
+
 h2{
     text-align: center;
 }
@@ -48,16 +52,20 @@ main p{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
-  text-align: center;
+  /* text-align: center; */
+  margin: 0%;
+  padding: 0%;
+  justify-content: right;
+  justify-items: center;
 }
 
 a {
-  color: black;
+  color: #514137;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: #514137;
   text-decoration: none;
 }
 
