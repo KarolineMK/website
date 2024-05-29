@@ -19,7 +19,7 @@ html {
   --bg-clr: #f2f0eb;
   --fh-clr: #d9d0c7;
   --fh-tclr: #514137;
-  --hl-clr: #4d3d34;
+  --hl-clr: #4d3d34; /* Bliver også brugt til underoverskrifter og pragrafer */
 
   --ff-main: "Roboto", sans-serif;
   --ff-headlines: "Montserrat", sans-serif;
@@ -39,6 +39,7 @@ main p {
   font-family: var(--ff-main);
   font-size: var(--fs-m);
   line-height: var(--lh-main);
+  color: var(--hl-clr);
 }
 
 h1 {
@@ -50,6 +51,7 @@ h1 {
 h2 {
   font-family: var(--ff-headlines);
   font-size: var(--fs-l);
+  color: var(--hl-clr);
 }
 
 body {
