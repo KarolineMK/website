@@ -6,23 +6,21 @@ main {
   margin-right: 2em;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 h2 {
   text-align: center;
 }
 
-p{
+p {
   text-align: center;
 }
 
-.grid_1{
+.grid_1 {
   margin: 10%;
   /* padding: 10%; */
-
 }
-
 
 video {
   max-width: 100%;
@@ -32,9 +30,8 @@ img {
   max-width: 100%;
 }
 
-
 /* hover effekt */
-.image{
+.image {
   object-fit: cover;
   transition: transform 0.5s ease;
 }
@@ -52,12 +49,12 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(217, 208, 199, 0.75); 
+  background-color: rgba(217, 208, 199, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0; 
-  transition: opacity 0.5s ease; 
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .overlay-text {
@@ -72,13 +69,12 @@ img {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #BDBFAA;
+  background-color: #bdbfaa;
   border: none;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  
 }
 
 .button:hover {
@@ -97,14 +93,14 @@ img {
   body {
     display: grid;
     gap: 1em;
-  } 
+  }
 
   .button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #BDBFAA;
+    background-color: #bdbfaa;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -118,7 +114,7 @@ img {
   } */
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,17 +126,44 @@ img {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #BDBFAA;
+    background-color: #bdbfaa;
     text-align: center;
     margin: 0;
     justify-content: center;
     align-items: center;
-    
   }
 
   .tagbillede {
     width: 100;
     height: 50;
   }
+}
 
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  /* text-align: center; */
+  margin: 0%;
+  padding: 0%;
+  justify-content: right;
+  justify-items: center;
+}
+
+a {
+  color: #514137;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #514137;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+footer p{
+  text-align: left;
 }
