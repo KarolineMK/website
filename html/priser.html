@@ -4,17 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="/css/priser.css" />
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/burger.css">
+    <link rel="stylesheet" href="../css/priser.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/burger.css" />
     <title>Priser</title>
   </head>
   <body>
     <header>
-      <div>
-        <a href="../index.html">
-        <img src="../img/Logo_uden_tekst.webp" alt="Billede af logo" height="100" width="110">
-      </div></a>
+      <a href="/index.html">
+        <img
+          src="/img/Logo_uden_tekst.webp"
+          alt="Billede af logo"
+          height="100"
+          width="110"
+        />
+      </a>
       <input id="menu-toggle" type="checkbox" />
       <label class="menu-button-container" for="menu-toggle">
         <div class="menu-button"></div>
@@ -29,65 +33,93 @@
         </ul>
       </nav>
     </header>
-<main>
 
-  <h1>Priser</h1>
-        
+    <main>
+      <h1>Priser</h1>
+
       <section class="grid_1-1 grid_1-12">
         <div class="flex_col">
-            
-            <div class="tekstpris">
-              
-              <h2>Projektpris eller timepris?</h2>
-              <p>Regningen vil ikke indholde nogle overraskelser! Som erhvervsdrivende tømrer får vi rabatter hos vores leverandører af materialer, og det kommer også dig til gode. Vi ønsker <strong>gennemsigtighed</strong> i priserne og du er også velkommen til selv at indkøbe materialerne. Vi fakturaer for minimum 3 timer plus moms.</p>
-              <p class="tekstpris2" >Vi kan efter <strong>dit ønske</strong> arbejde enten på timeløn eller til en fast aftalt projektpris. Oftest vil vi anbefale at der aftales en fast pris for arbejdet der skal udføres, således at du ved, hvad slutregningen kommer til at lyde på. Vi ønsker en <strong>klar og utvetydig</strong> kommunikation, således at der ikke opstår tvivl om, hvad det kommer til at koste og hvad du får for pengene.</p
-                > 
-            </div>
+          <div class="tekstpris">
+            <h2>Projektpris eller timepris?</h2>
+            <p>
+              Regningen vil ikke indholde nogle overraskelser! Som
+              erhvervsdrivende tømrer får vi rabatter hos vores leverandører af
+              materialer, og det kommer også dig til gode. Vi ønsker
+              <strong>gennemsigtighed</strong> i priserne og du er også
+              velkommen til selv at indkøbe materialerne. Vi fakturaer for
+              minimum 3 timer plus moms.
+            </p>
+            <p class="tekstpris2">
+              Vi kan efter <strong>dit ønske</strong> arbejde enten på timeløn
+              eller til en fast aftalt projektpris. Oftest vil vi anbefale at
+              der aftales en fast pris for arbejdet der skal udføres, således at
+              du ved, hvad slutregningen kommer til at lyde på. Vi ønsker en
+              <strong>klar og utvetydig</strong> kommunikation, således at der
+              ikke opstår tvivl om, hvad det kommer til at koste og hvad du får
+              for pengene.
+            </p>
           </div>
-      
-            <div class="flex_col1">
-              <div class="form-felt1">
-                <label>
-                  Fulde navn
-                  <input
-                    placeholder="fx Peter Jensen"
-                    type="text"
-                    name="fnavn"
-                    required
-                  />
-                </label>
-              </div>
-      
-              <div class="form-felt2">
-                <label>
-                  E-mail
-                  <input
-                    placeholder="fx peter@gmail.com"
-                    type="email"
-                    name="email"
-                    required
-                  />
-                </label>
-              </div>
-      
-              <label for="telefonnummer">Telefonnummer</label>
-              <input id="telefonnummer" class="form-felt3" name="number" type="tel" />
-      
-              <label for="postnummer">Postnummer</label>
-              <input id="postnummer" class="form-felt4" name="fname" type="text" />
-      
-              <div class="form-felt5">
-                <label>
-                  Opgaven kort beskrevet
-                  <textarea name="besked" rows="5"></textarea>
-                </label>
-              </div>
-      
-              <button class="button" >Ja, kontakt mig</button>
-            </div>
-          </main>
-          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-  <dotlottie-player src="https://lottie.host/2701f198-6e55-4311-b924-d8c7ad67f19a/Tu5rDwZskz.json" background="transparent" speed="1" style="height: 300px;" loop autoplay></dotlottie-player>
+        </div>
+
+        <div class="flex_col1">
+          <div class="form-felt1">
+            <label>
+              Fulde navn
+              <input
+                placeholder="fx Peter Jensen"
+                type="text"
+                name="fnavn"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="form-felt2">
+            <label>
+              E-mail
+              <input
+                placeholder="fx peter@gmail.com"
+                type="email"
+                name="email"
+                required
+              />
+            </label>
+          </div>
+
+          <label for="telefonnummer">Telefonnummer</label>
+          <input
+            id="telefonnummer"
+            class="form-felt3"
+            name="number"
+            type="tel"
+          />
+
+          <label for="postnummer">Postnummer</label>
+          <input id="postnummer" class="form-felt4" name="fname" type="text" />
+
+          <div class="form-felt5">
+            <label>
+              Opgaven kort beskrevet
+              <textarea name="besked" rows="5"></textarea>
+            </label>
+          </div>
+
+          <button class="button">Ja, kontakt mig</button>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <dotlottie-player
+      src="https://lottie.host/2701f198-6e55-4311-b924-d8c7ad67f19a/Tu5rDwZskz.json"
+      background="transparent"
+      speed="1"
+      style="height: 300px"
+      loop
+      autoplay
+    ></dotlottie-player>
     <footer>
       <section class="gridfooter_1-1-1">
         <div class="tekstfooter">
@@ -99,7 +131,11 @@
           <p>Telefon: +45 26 23 13 11</p>
         </div>
         <div>
-          <img src="../img/Logo_test.webp" alt="Billede af logo" class="footerbillede" />
+          <img
+            src="../img/Logo_test.webp"
+            alt="Billede af logo"
+            class="footerbillede"
+          />
         </div>
         <div>
           <h3>Navigation</h3>
