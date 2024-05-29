@@ -14,9 +14,8 @@ button {
   }
 
 /* generel css */
-body{
-    margin: 0%;
-}
+body
+{margin: 0;}
 
 h1{
   text-align: center;
@@ -35,6 +34,7 @@ h2{
 
 .grid_1{
     background-color: #BDBFAA;
+    
 }
 
 .grid_2{
@@ -97,7 +97,26 @@ img{
 
 @media (max-width: 800px){
   .form-felt1, .form-felt2, .form-felt3, .form-felt4 {
-    margin-bottom: 1em;}  
+    margin-bottom: 1em;
+  }  
+
+    .form-item{
+      border-radius: 5%;
+      background-color: rgba(217, 208, 199, 0.75);
+      height: 70%;
+      width: 90%;
+      margin: 10%;
+      padding: 10%;
+      margin-bottom: 10em;
+    }
+
+    .kontakt_h1 {
+      margin-bottom: 10%;
+    }
+
+    .byggebillede {
+      padding-top: 0em;
+    }
 
 }
 
@@ -112,6 +131,10 @@ img{
     max-width: 100%;
     padding-top: 10%;
   }  
+
+  .byggebillede {
+   margin-bottom: 5em;
+  }
 
   p{
     margin: 9%;
