@@ -136,7 +136,13 @@ img {
   .tagbillede {
     width: 100;
     height: 50;
+    margin-bottom: 5em;
   }
+
+.teksttag {
+  margin-bottom: 5em;
+}
+
 }
 
 .gridfooter_1-1-1 {
