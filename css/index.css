@@ -130,12 +130,12 @@ img {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-left: 600px;
   }
 
   .tagbillede {
     width: 100;
     height: 50;
-    margin-bottom: 3em;
   }
 
 .teksttag {
