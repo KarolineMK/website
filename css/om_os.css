@@ -76,7 +76,7 @@ a:hover {
 .form-container {
   display: grid;
   place-items: center;
-  background-image: url("/img/baggrund_kontakt.webp");
+  background-image: url('../img/baggrund_kontakt.webp'); 
   background-size: cover;
   background-repeat: no-repeat;
 }
