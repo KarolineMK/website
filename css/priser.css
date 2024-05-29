@@ -54,14 +54,6 @@ margin-bottom: 1em;
     display: grid;
     gap: 3px;
   }
-
-  footer {
-    margin: 0%;
-    padding: 0%;
-    background-color: #d9d0c7;
-    color: black;
-    
-  }
   
   .gridfooter_1-1-1 {
     display: grid;
@@ -71,10 +63,8 @@ margin-bottom: 1em;
     margin: 0%;
   }
 
- 
-
   .footerbillede {
-    margin-left: -50px;
+    
     width: 100%;
   }
   
@@ -128,7 +118,15 @@ margin-bottom: 1em;
   font-weight: bold;
 }
 
-
+.gridfooter_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 0%;
+  padding: 0%;
+  justify-content: right;
+  justify-items: center;
+}
 
     }
 
@@ -140,22 +138,14 @@ margin-bottom: 1em;
   
 }
 
- .gridfooter_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  justify-content: right;
-  justify-items: center;
-}
-
 
 a {
-  color: black;
+  color: #514137;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: #59473C;
   text-decoration: none;
 }
 
